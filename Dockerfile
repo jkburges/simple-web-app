@@ -1,9 +1,9 @@
 FROM python:2
 
-EXPOSE 8000
+EXPOSE 8080
 
 ADD . /app
 WORKDIR /app
 
-CMD python -m SimpleHTTPServer 8000
+CMD python -m SimpleHTTPServer 8080
 
